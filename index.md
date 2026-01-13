@@ -1,17 +1,23 @@
----
-title: "Accueil"
-layout: single
----
-#  Bonjour, je suis **Mathias Dodou**
+title: "Mathias Dodou"
+description: "DevOps Engineer | Automatisation, Docker, CI/CD"
+url: "https://dodoumathias.github.io"
+baseurl: ""
 
-🎯 **DevOps Engineer** spécialisé en automatisation, conteneurisation et CI/CD.
+remote_theme: "mmistakes/minimal-mistakes"
 
-## ⚙️ Compétences
-- Linux
-- Docker
-- CI/CD
-- Git
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
 
-- **Voir mes projets :** [Projets](/projects/)  
-- **Télécharger mon CV :** [CV](/cv/)  
-- **Me contacter :** [Contact](/contact/)
+author:
+  name: "Mathias Dodou"
+  avatar: "/assets/img/profile.png"
+  bio: "DevOps Engineer | Linux | Docker | CI/CD"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
