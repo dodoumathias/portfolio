@@ -1,62 +1,33 @@
 ---
-layout: default
-title: Pipeline CI/CD avec GitHub Actions
+title: "Projet CI/CD avec GitHub Actions"
+permalink: /projects/ci-cd/
+layout: single
 ---
 
-# 🔁 Pipeline CI/CD avec GitHub Actions
+<div class="fade-in">
 
-## 🎯 Objectif du projet
+# ⚙️ Pipeline CI/CD
 
-Mettre en place un **pipeline automatisé** permettant de :
-- Tester une application
-- Construire une image Docker
-- Déployer automatiquement après chaque `push`
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-blue?style=for-the-badge&logo=githubactions)
 
----
+</div>
 
-## 🛠️ Technologies utilisées
+<div class="slide-up">
 
-- GitHub Actions  
-- Docker  
-- Linux  
-- Git  
+## 🎯 Objectif
+Automatiser :
+- les tests
+- la construction d’images Docker
+- le déploiement
 
----
+## 🛠️ Outils
+- GitHub Actions
+- Docker
+- Linux
 
-## ⚙️ Fonctionnalités
+## 📌 Résultat
+- Déploiement rapide
+- Réduction des erreurs humaines
+- Meilleure fiabilité
 
-✔️ Build automatique de l’application  
-✔️ Tests automatisés  
-✔️ Création d’images Docker  
-✔️ Déploiement automatique  
-
----
-
-## 📈 Résultat
-
-- Réduction du temps de déploiement  
-- Moins d’erreurs humaines  
-- Processus reproductible et fiable  
-
----
-
-## 🔗 Code source
-
-👉 https://github.com/dodoumathias  
-
----
-
-## 🧠 Compétences démontrées
-
-- CI/CD  
-- Automatisation  
-- Conteneurisation  
-- Gestion de version avec Git  
-
----
-
-## 📌 Améliorations futures
-
-- Intégration de tests avancés  
-- Déploiement sur AWS / Azure  
-- Monitoring avec Prometheus & Grafana  
+</div>
