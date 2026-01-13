@@ -1,0 +1,81 @@
+
+# ==============================
+# Configuration générale du site
+# ==============================
+title: "Mathias Mahudo DODOU"
+tagline: "Administrateur Systèmes & DevOps Junior"
+description: "Portfolio de Mathias DODOU – DevOps Junior, Linux, Docker, CI/CD, Cloud"
+url: "https://dodoumathias.github.io"
+baseurl: ""
+
+# ==============================
+# Thème GitHub Pages (Jekyll)
+# ==============================
+# Tu peux changer le thème ici :
+# Exemples: minimal-mistakes-jekyll, jekyll-theme-cayman, jekyll-theme-minimal
+theme: jekyll-theme-cayman
+
+# ==============================
+# Auteur
+# ==============================
+author:
+  name: "Mahudo Mathias DODOU"
+  email: "dodoumathiasmahudo@gmail.com"
+  location: "Calavi, Bénin"
+  bio: "DevOps Junior | Linux • Docker • CI/CD • Cloud"
+  avatar: "/assets/img/profile.png"
+
+# ==============================
+# Réseaux & Liens
+# ==============================
+social:
+  github: "dodoumathias"
+  linkedin: "mathiasdodou"
+  portfolio: "https://dodoumathias.github.io/portfolio"
+
+# ==============================
+# Navigation (Menu)
+# ==============================
+navbar:
+  - title: "Accueil"
+    url: "/"
+  - title: "Projets"
+    url: "/projects"
+  - title: "CV"
+    url: "/cv"
+  - title: "Contact"
+    url: "/contact"
+
+# ==============================
+# SEO & Métadonnées
+# ==============================
+lang: fr
+timezone: Africa/Porto-Novo
+google_analytics: ""   # Ajoute ton ID si besoin (ex: G-XXXXXXXXXX)
+
+# ==============================
+# Markdown & Plugins
+# ==============================
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# ==============================
+# Collections (pages organisées)
+# ==============================
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# ==============================
+# Exclusions
+# ==============================
+exclude:
+  - README.md
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
